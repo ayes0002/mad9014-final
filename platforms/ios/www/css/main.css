@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+	font-family:sans-serif;
+/*	background:#767DA8;*/
+}
+h1{
+	font-family:serif;
+	padding:1.0rem 3rem;	
+}
+p{
+  float: left;
+  display: block;
+  margin: 0;
+  padding-left: 35%;
+  height: 40px;
+  line-height: 40px; font-size: 17px;
+/*  color: #fff;*/
+}
+.checkbox{
+    float: left;
+    width: 44px; height: 44px;
+    border-radius: 22px;
+    border: 1px solid #bbb;
+}
+
+input [id^="check"]{
+    border-radius: 22px;
+    border: 1px solid #bbb;
+}
+
+div [id^="grocery"]{
+    height: 44px;
+    border-bottom: 1px solid black;
+}
+h1{
+	font-size: 3.2rem;	
+	color:#fff;
+    text-align: center;
+}
+
+.masthead{
+	background: #b29772;
+	color:#fff;
+	padding-bottom: 20px;
+	border-bottom: 6px solid #333;
+}
+
+.inputs, .clears{
+    width: 50%;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+
+.item{
+  display: block;
+  margin: 0;
+  width: 100%; height: 40px;
+  line-height: 40px; font-size: 17px;
+  border: 1px solid #bbb;
+    text-align: center;
+}
+
+.body{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.remove{
+    float: right;
+/*    display: none;*/
+  display: block;
+ font-size: 1em; line-height: 2.5em;
+ color: #333;
+ font-weight: bold;
+ height: 2.5em;
+ background: #fdfdfd;
+ background: linear-gradient(to bottom, #fdfdfd 0%, red 100%);
+ border: 1px solid #bbb;
+ border-radius: 10px;
+}
+
+.submit, .clear{
+/*    width: 50%;*/
+ display: block;
+ font-size: 1em; line-height: 2.5em;
+ color: #333;
+ font-weight: bold;
+ height: 2.5em; width: 100%;
+ background: #fdfdfd; 
+ background: linear-gradient(to bottom, #fdfdfd 0%,#bebebe 100%);
+ border: 1px solid #bbb;
+}
